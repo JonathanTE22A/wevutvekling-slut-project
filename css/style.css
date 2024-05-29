@@ -1,12 +1,13 @@
 .title-site{
-    background-color: #d138e8;
+    background-color: #498b87;
+    color: #dddddd;
     text-align: center;
     font-weight: bold;
     size: 400px 125px;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    border-color: #a22ab5;
+    border-color: #3f817c;
 }
 
 .bild img{
@@ -73,6 +74,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    font-weight: bold;
     margin-top: 50px;
     width: 80%;
     height: 200px;
@@ -132,7 +135,7 @@
 .blå_box{
     display: flex;   
     margin-top: 50px;
-    height: 400px;
+    height: 300px;
     text-align: center;
     justify-content: space-around;
 }
@@ -161,6 +164,7 @@
 
 .foot{
     display: flex;
+    margin-top: 10%;
     background-color: #FFA629;
     height: 50px;
     width: 100%;
@@ -170,3 +174,25 @@
     justify-content: space-around;
     font-weight: bold;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    right: 8px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+  }
