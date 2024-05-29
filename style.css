@@ -18,8 +18,8 @@
 }
 
 .loga{
-    top: 100px;
-    left: 50px;
+    top: 130px;
+    left: 70px;
     width: 10%;
     position: absolute;
 }
@@ -27,8 +27,8 @@
 .page_start_p2{
     background-color: #0D99FF9C;
     margin-left: 10%;
-    margin-top: 20%;
-    width: 1000px;
+    margin-top: 5%;
+    width: 80%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -95,5 +95,78 @@
 }
 
 .button{
-    
+    width: 50px;
+    height: 40px;
+    top: 200px;
+    left: 40%;
+    position: absolute;
+    background-color: white;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    border: black solid 2px;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.mat_kategorie{
+    display: flex;
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.mat_kategorie_kolumn{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(148, 146, 146);
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+}
+
+.blå_box{
+    display: flex;   
+    margin-top: 50px;
+    height: 400px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.blå_box_box{
+    display: flex;
+    background-color: #BDE3FF;
+    border-radius: 10px;
+    border-style: solid;
+    height: 300px;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.blå_box_button{
+    margin-top: 30%;
+    background-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.foot{
+    display: flex;
+    background-color: #FFA629;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #9b6417;
+    justify-content: space-around;
+    font-weight: bold;
 }
